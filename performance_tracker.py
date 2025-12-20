@@ -11,5 +11,4 @@ dow = np.array(["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"
 print("Total Sales:", np.sum(sales, axis=1))
 print("Daily Trends:", np.sum(sales, axis=0)) 
 low = np.argmin(sales[-1])
-print(low)
 print("\"Sad\" Stat:", dow[low])
